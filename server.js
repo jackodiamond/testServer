@@ -1,7 +1,7 @@
     var io = require('socket.io')({
 	transports: ['websocket'],
 });
-    let port = process.env.PORT || 8080;
+    let port = 80;
 io.attach(port);
 var usernames = {}; 
 var roomo = {};
